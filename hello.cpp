@@ -2,6 +2,8 @@
 
 using namespace std;
 
+void sayHello(const char*);
+
 int main(){
 
     char name[100];
@@ -9,6 +11,10 @@ int main(){
     cin >> name;
     cout << endl;
     
-    cout << "Hello " << name << "!" << endl;
+    sayHello(name);
+}
 
+// New function
+void sayHello(const char* name){
+    cout << "Hello " << name << "!" << endl;
 }
