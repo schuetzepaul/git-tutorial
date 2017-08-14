@@ -8,7 +8,7 @@ void sayGoodbye(const char*);
 int main(){
 
     char name[100];
-    cout << "Enter your name: ";
+    cout << "Gib deinen Namen ein: ";
     cin >> name;
     cout << endl;
     
@@ -18,9 +18,9 @@ int main(){
 
 // New function
 void sayHello(const char* name){
-    cout << "Hello " << name << "!" << endl;
+    cout << "Hallo " << name << "!" << endl;
 }
 
 void sayGoodbye(const char* name){
-    cout << "Goodbye " << name << "!" << endl;
+    cout << "Tschuess " << name << "!" << endl;
 }
